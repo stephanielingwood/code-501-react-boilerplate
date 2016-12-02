@@ -127,6 +127,11 @@ exports.setupCSS = function (paths) {
           test: /\.css$/,
           loaders: ['style', 'css'],
           include: paths
+        },
+        {
+          test: /\.(sass|scss)$/,
+          loaders: ['style', 'css', 'sass'],
+          include: paths
         }
       ]
     }
