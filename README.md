@@ -1,7 +1,10 @@
-# code-501-react-boilerplate
+# React Boilerplate
+## Code 501: App Development with React + Redux
+
 Boilerplate for Code 501: App Development with React + Redux
 
 To get up and running:
+
 1. Clone this repository
 2. Edit `package.json` appropriately, with your name, project, etc.
 3. Run `npm install` to install the devDependencies
