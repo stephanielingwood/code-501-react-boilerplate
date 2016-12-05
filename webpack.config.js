@@ -1,3 +1,4 @@
+// Emily wrote this config based on other projects. most people copy and paste from other places. No long strings with exclamation points.
 const path = require('path')
 const merge = require('webpack-merge')
 const validate = require('webpack-validator')
@@ -9,7 +10,7 @@ const ENABLE_POLLING = process.env.ENABLE_POLLING
 const PATHS = {
   app: path.join(__dirname, 'app'),
   style: [
-    path.join(__dirname, 'app', 'main.css')
+    path.join(__dirname, 'app', 'manifest.scss')
   ],
   build: path.join(__dirname, 'build'),
   test: path.join(__dirname, 'tests')

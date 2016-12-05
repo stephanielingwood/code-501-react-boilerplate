@@ -1,0 +1,7 @@
+.Bio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+// this is the class used in the Bio component
+// flexbox is super useful for css3. one of the problems is that html/css has no concept of height. height is a function of how much data you have in the dom. flexbox lets thigns grow/shrink in both height and width . if you ever play with react native, all page styling is in flexbox.

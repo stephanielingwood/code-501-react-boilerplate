@@ -2,6 +2,8 @@ const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+
+// this separates some things out of the webpack config file. the below plugin automatically downloads and installs npm packages when one is imported.
 const NpmInstallPlugin = require('npm-install-webpack-plugin')
 
 exports.indexTemplate = function (options) {
@@ -124,8 +126,8 @@ exports.setupCSS = function (paths) {
     module: {
       loaders: [
         {
-          test: /\.css$/,
-          loaders: ['style', 'css'],
+          test: /\.(scss|scss)$/,
+          loaders: ['style', 'css', 'sass'],
           include: paths
         }
       ]

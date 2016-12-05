@@ -1,0 +1,5 @@
+/*there are many ways of doing this. we could use webpack to get anything with scss or sass extension and tell it to combine it. it's nice to use the manifest, a very common approach*/
+@import './components/HomePage/HomePage';
+@import './components/Bio/Bio';
+@import './components/BooksList/BooksList';
+@import './components/MessagesList/MessagesList';
